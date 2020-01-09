@@ -1,0 +1,7 @@
+a=int(input("enter the nuber"))
+b=int(input("enter the number"))
+c=a
+a=b
+b=c
+print(a)
+print(b)
