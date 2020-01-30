@@ -1,0 +1,9 @@
+a=0
+c=[]
+while a<1:
+    b=int(input("enter the number"))
+    if(b==0):
+        break
+    elif(b%2==0):
+            c.append(b)
+print("your list is",c)
