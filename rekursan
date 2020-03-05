@@ -1,0 +1,8 @@
+def rekursion(N):
+                if N==1:
+                       return N
+                else:
+                    return N*rekursion(N-1)
+a=int(input("enter th number"))
+print(rekursion(a))
+             
