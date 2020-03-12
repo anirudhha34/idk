@@ -1,0 +1,28 @@
+class student:
+    def __init__(self,a,b):
+       self.rollno=a
+       self.name=b
+    def printvalues(self):
+        print("roll no=",self.rollno)
+        print("name=",self.name)
+
+    def grades(self,a):
+       self.a=a
+        if a>100:
+            print("unpassibal")
+        elif a>90 and a<=100:
+            print("A")
+        elif a>80 and a<=90:
+            print("B")
+        elif a>70 and a<=80:
+            print("C")
+        elif a=>60 and a<=70:
+            print("D")
+        elif a<60:
+            print("F")
+S1=student()
+S1.grades(80)
+            
+        
+        
+   
